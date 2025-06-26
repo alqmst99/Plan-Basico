@@ -1,0 +1,103 @@
+
+/*General css*/
+body {
+  font-family: Arial, sans-serif;
+  background: #66cee0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 2em;
+  text-align: center;
+}
+ 
+.hero {
+  background: #c9e4ff;
+  background-image: url(./Assets/img/image-back.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 4em 2em;
+  color: #c7eaf0;
+}
+
+.btn {
+  background: #25d366;
+  color: white;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  border-radius: 8px;
+}
+ul{
+    align-self: center;
+    list-style-type: none;
+    
+}
+li{
+    margin-left: 0;
+
+}
+
+/*Card view*/
+.list{
+    display: flex;
+    margin: 1.2rem;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.list .card .icon {
+text-align: center;
+}
+
+.card{
+    border:2px double #000 ;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: #c9e4ff;
+ }
+
+ .card:hover{
+    
+    border: 2px solid #052b50;
+    background-color: #05ffff;
+    transition: 0.3s;
+ }
+
+ /*Contact*/
+ .media{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+ }
+ .media a{
+    text-decoration: none;
+    margin: 0.5rem;
+ 
+ }
+.media a i:hover{
+    background-color: #c9e4ff;
+    border-radius: 100%;
+    padding: 15%;
+    transition: 0.3s;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 2rem;align-content: center;
+    background-color:#c9e4ff ;
+
+}
+footer span{
+    color: #5e29db;
+}
+footer a{
+    text-decoration: none;
+    margin: 0.5rem;
+}
