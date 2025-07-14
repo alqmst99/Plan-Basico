@@ -1,103 +1,206 @@
+root {
+  --primary-color: #444444;
+  --secondary-color: #25d366;
+  --min: 1.5rem;
+  --max: 2rem;
+  --text-color: ;
+
+}
+
 
 /*General css*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
-  background: #66cee0;
-  color: #333;
-  margin: 0;
-  padding: 0;
+  background: #bbbbbb;
+  color: #070707;
+  font-weight: 500;
 }
 
 section {
-  padding: 2em;
+  padding: 2rem;
   text-align: center;
 }
- 
-.hero {
-  background: #c9e4ff;
-  background-image: url(./Assets/img/image-back.jpg);
-  background-size: cover;
-  background-position: center;
-  padding: 4em 2em;
-  color: #c7eaf0;
-}
+
 
 .btn {
   background: #25d366;
   color: white;
-  padding: 0.8em 1.5em;
+  padding: 1.2rem;
   text-decoration: none;
-  border-radius: 8px;
-}
-ul{
-    align-self: center;
-    list-style-type: none;
-    
-}
-li{
-    margin-left: 0;
-
+  border-radius: 10px;
+  text-align: center;
 }
 
-/*Card view*/
-.list{
-    display: flex;
-    margin: 1.2rem;
-    justify-content: space-between;
-    align-content: center;
+ul {
+  align-self: normal;
+  margin-top: 5%;
+  list-style: none;
 }
 
-.list .card .icon {
-text-align: center;
+li {
+  text-align: start;
 }
 
-.card{
-    border:2px double #000 ;
-    border-radius: 10px;
-    padding: 0.5rem;
-    background-color: #c9e4ff;
- }
+/*HEADER*/
+header {
+  background-color: #383838;
+}
 
- .card:hover{
-    
-    border: 2px solid #052b50;
-    background-color: #05ffff;
-    transition: 0.3s;
- }
+.section-header {
 
- /*Contact*/
- .media{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
- }
- .media a{
-    text-decoration: none;
-    margin: 0.5rem;
+  background-image: url(./Assets/img/image-back.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 2rem;
+  color: #c7eaf0;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 10%;
+}
+
+.nav-logo .logo-image {
+  border-radius: 50%;
+  margin-right: 50%;
+}
+
+.header-nav .nav-ref {
+  padding-top: 2rem;
+  width: 100%;
+  margin-left: 35%;
+
+}
+
+.header-nav .nav-ref a {
+  text-decoration: none;
+  margin-left: 5%;
+  color: white;
+  font-size: 2rem;
+
+}
+
+.header-nav .nav-ref a:hover {
+  color: var(--secondary-color);
+  transition: 0.1s;
+
+}
+
+.section-inicio .section-services {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inicio-title{
+  font-size: 1.5rem;
+  text-shadow: 0.2rem .2rem  rgb(0, 0, 0);
+}
+
+.inicio-btn {
+  padding-top: 2rem;
+}
+
+/*Services*/
+.section-services{
+
+}
+.service-list {
+  display: flex;
+  margin: 1.2rem;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.service-list .service-card .icon {
+  text-align: center;
+}
+
+.service-card {
+  width: 400px;
+  height: 500px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-radius: 10px;
+  padding: auto;
+
+}
+
+.service-card:hover {
+  box-shadow: 10px 10px 5px rgba(2, 255, 255, 0.6);
+  border-radius: 10px;
+  background-color: #05ffff;
+  transition: 0.1s;
+}
+
+.card-title {
+  color: white;
+  margin-bottom: 5%;
+font-weight: 600;
+}
+
+.card-content {
+  width: fit-content;
+  font-size: 1.5rem;
  
- }
-.media a i:hover{
-    background-color: #c9e4ff;
-    border-radius: 100%;
-    padding: 15%;
-    transition: 0.3s;
+}
+
+.card-content p{
+   font-size: large;
+}
+
+.card-content li{
+  font-size: medium;
+}
+
+/*Contact*/
+.media {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.media a {
+  text-decoration: none;
+  margin: 0.5rem;
+
+}
+
+.media a i:hover {
+  background-color: #c9e4ff;
+  border-radius: 100%;
+  padding: 15%;
+  transition: 0.3s;
 }
 
 /* Footer */
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-self: center;
-    padding-bottom: 2rem;align-content: center;
-    background-color:#c9e4ff ;
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding: 2rem;
+  align-content: center;
+  background-color: #5384b4;
 
 }
-footer span{
-    color: #5e29db;
+
+footer span {
+  color: #5e29db;
 }
-footer a{
-    text-decoration: none;
-    margin: 0.5rem;
+
+footer a {
+  text-decoration: none;
+  margin: 0.5rem;
 }
