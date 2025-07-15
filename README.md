@@ -1,6 +1,6 @@
-**Proyecto: Landing Page – Plan Básico**
-**Desarrollado por**: FSTail Solution
-**Repositorio**: alqmst99.github.io/Plan-Basico
+** Proyecto: Landing Page – Plan Básico**_
+** Desarrollado por**: FSTail Solution**
+** Repositorio**: alqmst99.github.io/Plan-Basico**
 
 ##Objetivo
 Esta landing está pensada para brindar presencia online rápida y segura a emprendedores, marcas personales o profesionales independientes. Aunque es un sitio estático, se aplicaron medidas esenciales para garantizar una experiencia segura para el usuario y proteger la integridad del sitio.
