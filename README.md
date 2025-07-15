@@ -24,13 +24,13 @@ Esta landing está pensada para brindar presencia online rápida y segura a empr
 
 ## Estructura del proyecto
 
-Plan-Basico/
-├── index.html
-├── style.css
-├── /Assets
-│ └── /img
-│ └── logo.jpg
-├── README.md
+Plan-Basico/  
+├── index.html  
+├── style.css  
+├── /Assets  
+│ └── /img  
+│ └── logo.jpg  
+├── README.md  
 
 ---
 
