@@ -260,6 +260,11 @@ footer a {
   .service-icon i {
     font-size: 4rem;
   }
+    .footer-social {
+    padding: 0.5rem;
+    flex-direction: row;
+    text-align: center;
+  }
 }
 
 /*mobile cellphone*/
@@ -335,6 +340,11 @@ footer a {
 
   footer {
     flex-direction: column;
+    text-align: center;
+  }
+  .footer-social {
+    padding: 0.5rem;
+    flex-direction: row;
     text-align: center;
   }
 }
