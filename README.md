@@ -1,11 +1,11 @@
-** Proyecto: Landing Page – Plan Básico **
-** Desarrollado por**: FSTail Solution **
-** Repositorio**: alqmst99.github.io/Plan-Basico **
+**Proyecto: Landing Page – Plan Básico**  
+**Desarrollado por**: FSTail Solution**  
+**Repositorio**: alqmst99.github.io/Plan-Basico**  
 
 ## Objetivo
 Esta landing está pensada para brindar presencia online rápida y segura a emprendedores, marcas personales o profesionales independientes. Aunque es un sitio estático, se aplicaron medidas esenciales para garantizar una experiencia segura para el usuario y proteger la integridad del sitio.
 
-** Diseñar e implementar una landing **liviana, accesible y responsive ** que:
+**Diseñar e implementar una landing liviana, accesible y responsive que**:
 - Muestre quién sos y qué hacés
 - Permita contactarte directamente
 - Funcione en celulares, tablets y PCs
@@ -15,8 +15,8 @@ Esta landing está pensada para brindar presencia online rápida y segura a empr
 
 ## Tecnologías utilizadas
 
-- ** HTML5 **
-- ** CSS3 **
+- **HTML5**
+- **CSS3**
 - [RemixIcon](https://remixicon.com/) vía CDN (jsDelivr)
 - Hosting gratuito y seguro con **GitHub Pages**
 
